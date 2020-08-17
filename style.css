@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+a:visited {
+  color: none;
+}
+
+* {
+  text-decoration: none;
+  margin: 0;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: .40rem 0;
+  margin-right: 25px;
+  text-decoration: none;
+  color: tomato;
+}
+
+.two:hover ~ hr {
+  margin-left: 51%;
+}
+
+hr {
+  height: .1rem;
+  width: 46%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+.highlight {
+  background: url("./assets/brush.png");
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  padding: 8px 0;
+}
+
+.headerCont {
+  display: flex;
+  width: 100vw;
+  background-color: #f6f7fb;
+  justify-content: center;
+}
+
+header {
+  height: 48px;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f7fb;
+  font-size: 14px;
+}
+
+#logoArea {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 1rem;
+  height: 40px;
+  width: 40px;
+  background-image: url("./assets/logo.png");
+  background-position: center;
+  background-size: cover;
+  margin-right: 0.5rem;
+}
+
+#one {
+  /* height: 150vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50%;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: #f6f7fb;
+}
+
+#oneone {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 25%;
+  margin-top: 10%;
+  width: 100%;
+}
+
+div.image {
+  content:url('./assets/Group 24.png');
+  width:75%;
+}​
+
+
+.heading1 {
+  margin-top: 8rem;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+
+  color: #0b0f32;
+}
+
+#heading2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+
+  color: #0b0f32;
+}
+
+#heading5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 66px;
+  /* identical to box height */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+#subheading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: justify;
+  margin: 2rem 0;
+  color: #8d99a7;
+  margin-right: 50%;
+}
+
+
+#buttonsflex {
+  display: flex;
+}
+
+.primary {
+  background-color: #7854f6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 0.5rem 1.25rem;
+  color: #fff;
+  border: none;
+  /* margin: 0 0.5rem; */
+}
+
+#heading8 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 66px;
+  /* identical to box height */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#primaryImage {
+  background-image: url('./assets/Chrome – Standart.png');
+  background-size: cover;
+  width: 80vw;
+  max-width: 1550px;
+  height: calc(80vw * 676 / 1200);
+  box-shadow: 0px 16px 32px rgba(75, 77, 82, 0.24),
+    0px 0px 1px rgba(75, 77, 82, 0.48);
+  border-radius: 4px;
+  margin: 4rem 0;
+}
+
+/* section 2 */
+
+#two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+#heading3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  /* identical to box height */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+div.image1 {
+  content:url('./assets/Group 25.png');
+  width:25%;
+}​
+
+
+.heading4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 2rem 0.5rem 2rem 0;
+  /* P1 */
+
+  color: #0b0f32;
+}
+
+.featureDetails {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 33px;
+  color: #8d99a7;
+}
+
+#three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  color: #0b0f32;
+  background-color: #f6f7fb;
+}
+
+#four {
+  width: 100vw;
+  background-color: #0b0f32;
+  padding: 9rem 0;
+}
+
+div.image2 {
+  content:url('./assets/Group 29.png');
+  width:35%;
+}​
+
+@media (min-device-width: 320px) and (max-device-width: 680px) {
+  .heading1 {
+    font-size: 32px;
+  }
+  #heading2 {
+    font-size: 56px;
+    line-height: 72px;
+  }
+
+  div.image2 {
+    content:url('./assets/Group 29.png');
+    width:50%;
+  }​
+}
+
+div.image3 {
+  content:url('./assets/Group 27.png');
+  width:25%;
+}​
+
